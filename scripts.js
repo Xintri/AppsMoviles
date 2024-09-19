@@ -47,3 +47,7 @@ let suma = a + b; // 7
 let resta = a - b; // 2
 let mult = a * b; // 24
 let div = a / b; // nose 4/6 = 2/3
+
+//git add .
+// git commit -m "nombre"
+// git push
