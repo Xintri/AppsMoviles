@@ -1,0 +1,62 @@
+//Arrow Function
+////////////////////////////1./////////////////////////////////////////////
+
+function funcional(a, b) {
+    return a-b;
+}
+
+console.log(funcional(3,2));
+
+////////////////////////////2./////////////////////////////////////////////
+
+//Estructura arrow function
+let JajantSalu2 = () => {};
+
+
+//////////////////////////////3.///////////////////////////////////////////
+
+let JajaSalu3 = (nombre) => {
+    return 'Saluditos ' + nombre;
+}
+
+console.log(JajaSalu3('Pepeh el de los huevoh repe'));
+
+//////////////////////////////4.///////////////////////////////////////////
+
+let omaga = nombre => "Jelo " + nombre;
+
+console.log(omaga('Paca la alpaca'));
+
+//////////////////////////////////////5.///////////////////////////////////
+
+//Pasar Parametros
+let multiplicacion = (a,b) => a*b;
+
+console.log(multiplicacion(5,2));
+
+/////////////////////////////////6.////////////////////////////////////////
+
+//Crear objeto en arrow function
+let object = () => ({nombre: "El Apodaka", edad:99})
+
+//LLamamos al objecto  y accedemos a laa propiedad (????? tsun tsun tsunuusnunununununununununnuuuuuuuuuun
+//let pipol = object().nombre; (???
+
+console.log(object().nombre);
+
+/////////////////////////////////////////////////////////////////////////
+/*Me gustaría declararle mi amor
+Pero solo puedo declarar variables*/
+/////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////7.////////////////////////////////////////
+//Arrays
+let array = () => [1,2,3,4,5];
+
+//Accede al array
+console.log(array()[4]);
+
+//Acceder a todo el arrat
+console.log(array())
+
